@@ -1,0 +1,33 @@
+// Базовые настройки сетки
+body {
+    background: #E5E5E5;
+}
+@import "grid";
+@import "btn";
+@import "fonts";
+@import "text-grad";
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-template-areas: "menu header"
+                         "menu content";
+    grid-template-rows: 56px auto;
+    transition: all .3s ease;
+}
+
+.page.active {
+    grid-template-columns: 236px auto;
+}
+
+// Header
+@import "marking/header";
+// Sidebar
+@import "marking/sidebar";
+// Content
+@import "marking/content";
+// Randomizer
+@import "marking/marking";

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/likes.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__wrap">
+                <div class="header__left-side">
+                    <a href="#" class="header__logo"></a>
+                    <a href="#" class="header__button"><i class="chevron-left"></i> Назад</a>
+                    <a href="personal_area.html" class="header__main-page">Главная</a>
+                    <i class="header-chevron-right"></i>
+                    <a href="#" class="header__settings">Настройки</a>
+                    <i class="header-chevron-right"></i>
+                    <a href="#" class="header__settings">Лайки, подписки, комментарии</a>
+                </div>
+                <div class="header__right-side">
+                    <div class="header__notifications"></div>
+                    <div class="header__user-image"></div>
+                    <div class="header__user-name">Vladislav <i class="chevron-down"></i></div>
+                </div>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <ul class="sidebar__categories">
+                <li><a href="#" class="sidebar__logo-category"><i class="sidebar__blocks-image"></i><div class="header__logo"></div></a></li>
+                <li class="sidebar__settings">
+                    <a href="#" class="sidebar__settings-top"><i class="sidebar__settings-image"></i>
+                        <div class="sidebar__text">Настройки</div></a>
+                    <ul class="sidebar__settings-bottom">
+                            <li><a href="sidebar_settings-basic.html" class="sidebar__text active">Основные</a></li>
+                            <li><a href="sidebar_settings-posting.html" class="sidebar__text">Постинг</a></li>
+                            <li><a href="sidebar_settings-edit-profile.html" class="sidebar__text">Редактирование профиля</a></li>
+                            <li><a href="sidebar-settings-likes.html" class="sidebar__text">Лайки, подписки, комментарии</a></li>
+                            <li><a href="sidebar-settings-marking.html" class="sidebar__text">Отмечалка</a></li>
+                            <li><a href="sidebar-settings-proxy.html" class="sidebar__text">Прокси</a></li>
+                            <li><a href="sidebar-settings-direct.html" class="sidebar__text">Директ</a></li>
+                    </ul>
+                </li>
+                <li><a href="log.html" class="sidebar__log-category"><i class="sidebar__log-image"></i><div class="sidebar__text">Лог</div></a></li>
+                <li><a href="prices.html" class="sidebar__prices-category"><i class="sidebar__prices-image"></i><div class="sidebar__text">Цены</div></a></li>
+                <li><a href="faq.html" class="sidebar__faq-category"><i class="sidebar__faq-image"></i><div class="sidebar__text">F.A.Q.</div></a></li>
+                <li><a href="contacts.html" class="sidebar__contacts-category"><i class="sidebar__contacts-image"></i><div class="sidebar__text">Контакты</div></a></li>
+                <li><a href="randomizer.html" class="sidebar__randomizer-category"><i class="sidebar__randomizer-image"></i><div class="sidebar__text">Рандомизатор хэштегов</div></a></li>
+                <li><a href="partners.html" class="sidebar__partners-category"><i class="sidebar__partners-image"></i><div class="sidebar__text">Партнерская программа</div></a></li>
+                <li><a href="#" class="sidebar__all-blocks-category"><i class="sidebar__all-blocks-image"></i><div class="sidebar__text">Все блоки</div></a></li>
+            </ul>
+            <div class="sidebar__expander"><i class="expander"></i></div>
+            <div class="sidebar__shrinker"><i class="shrinker"></i>Свернуть</div>
+        </aside>
+        <main class="content">
+            <div class="content__wrap">
+                <div class="likes">
+                    <div class="likes__wrap">
+                        <div class="likes__columns">
+                            <div class="likes__col likes__col--1">
+                                <div class="likes__likes-settings">
+                                    <div class="likes__likes-settings-title">
+                                        <div class="likes__likes-settings-title-text">Лайки</div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--1">
+                                        <div class="likes__left-side">
+                                            Паузы между лайками
+                                            <input type="checkbox" class="likes__likes-settings-pause-between-likes-checkbox">
+                                        </div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__likes-settings-pause-between-likes-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__likes-settings-pause-between-likes-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--2">
+                                        <div class="likes__left-side">
+                                            Лайки по хештегам
+                                            <input type="checkbox" class="likes__likes-settings-likes-for-hashtags-checkbox">
+                                        </div>
+                                        <div class="likes__right-side">
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--3">
+                                        <div class="likes__left-side">Хештеги</div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__likes-settings-path-to-hashtags">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--4">
+                                        <div class="likes__left-side">Лайков с одного аккаунта</div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__likes-settings-likes-from-one-account-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__likes-settings-likes-from-one-account-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--5">
+                                        <div class="likes__left-side">
+                                            Лайки по пользователям
+                                            <input type="checkbox" class="likes__likes-settings-likes-for-users-checkbox">
+                                        </div>
+                                        <div class="likes__right-side"></div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--6">
+                                        <div class="likes__left-side">Пользователи</div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__likes-settings-path-to-users">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--7">
+                                        <div class="likes__left-side">Пользователей лайкнуть</div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__likes-settings-users-to-like-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__likes-settings-users-to-like-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--8">
+                                        <div class="likes__left-side">Лайков на одного пользователя</div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__likes-settings-likes-for-each-user-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__likes-settings-likes-for-each-user-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--9">
+                                        <div class="likes__left-side">Удалить после использования?</div>
+                                        <div class="likes__right-side">
+                                            <input type="checkbox" class="likes__likes-settings-delete-after-using-checkbox">
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--10">
+                                        <div class="likes__left-side">
+                                            Лайки на публикации
+                                            <input type="checkbox" class="likes__likes-settings-likes-for-publications-checkbox">
+                                        </div>
+                                        <div class="likes__right-side"></div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--11">
+                                        <div class="likes__left-side">Публикации</div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__likes-settings-path-to-publications">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__likes-settings-row likes__likes-settings-row--12">
+                                        <div class="likes__left-side">Публикаций лайкнуть</div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__likes-settings-publications-to-like-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__likes-settings-publications-to-like-to gray-wrap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="likes__col likes__col--2">
+                                <div class="likes__subscribe-settings">
+                                    <div class="likes__subscribe-settings-title">
+                                        <div class="likes__subscribe-settings-title-text">Подписка</div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--1">
+                                        <div class="likes__left-side">
+                                            Паузы между подписками
+                                            <input type="checkbox" class="likes__subscribe-settings-pause-between-subscribes-checkbox">
+                                        </div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__subscribe-settings-publications-to-like-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__subscribe-settings-publications-to-like-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--2">
+                                        <div class="likes__left-side">
+                                            Подписка по списку пользователей
+                                            <input type="checkbox" class="likes__subscribe-settings-subscribe-according-to-users-list-checkbox">
+                                        </div>
+                                        <div class="likes__right-side">
+
+                                        </div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--3">
+                                        <div class="likes__left-side">
+                                            Пользователи
+                                        </div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__subscribe-settings-path-to-users">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--4">
+                                        <div class="likes__left-side">
+                                            Количество подписок
+                                        </div>
+                                        <div class="likes__right-side">
+                                            <input type="text" class="likes__subscribe-settings-amount-of-subscribes gray-wrap" placeholder="-">
+                                        </div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--5">
+                                        <div class="likes__left-side">Удалить после использования</div>
+                                        <div class="likes__right-side">
+                                            <input type="checkbox" class="likes__subscribe-settings-delete-after-using-checkbox">
+                                        </div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--6">
+                                        <div class="likes__left-side">
+                                            Подписка по хештегам
+                                            <input type="checkbox" class="likes__subscribe-settings-subscribe-for-hashtags-checkbox">
+                                        </div>
+                                        <div class="likes__right-side"></div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--7">
+                                        <div class="likes__left-side">Хештеги</div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__subscribe-settings-path-to-hashtags">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--8">
+                                        <div class="likes__left-side">Подписок с одного аккаунта</div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__subscribe-settings-subscribes-for-each-account-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__subscribe-settings-subscribes-for-each-account-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__subscribe-settings-row likes__subscribe-settings-row--9">
+                                        <div class="likes__left-side">Подписка взаимно</div>
+                                        <div class="likes__right-side">
+                                            <input type="checkbox" class="likes__subscribe-settings-subscribe-mutually-checkbox">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="likes__comments-settings">
+                                    <div class="likes__comments-settings-title">
+                                        <div class="likes__comments-settings-title-text">
+                                            Комментарии к постам
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--1">
+                                        <div class="likes__left-side">
+                                            Паузы между комментариями
+                                            <input type="checkbox" class="likes__comments-settings-pause-between-comments-checkbox">
+                                        </div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__comments-settings-pause-between-comments-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__comments-settings-pause-between-comments-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--2">
+                                        <div class="likes__left-side">По списку публикаций</div>
+                                        <div class="likes__right-side">
+                                            <input type="checkbox" class="likes__comments-settings-comments-for-publications-list-checkbox">
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--3">
+                                        <div class="likes__left-side">Публикации</div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__comments-settings-path-to-publications">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--4">
+                                        <div class="likes__left-side">Публикаций комментировать</div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__comments-settings-publications-to-comment-first-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__comments-settings-publications-to-comment-first-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--5">
+                                        <div class="likes__left-side">По хештегам</div>
+                                        <div class="likes__right-side">
+                                            <input type="checkbox" class="likes__comments-settings-comments-for-hashtags-checkbox">
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--6">
+                                        <div class="likes__left-side">Хештеги</div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__comments-settings-path-to-hashtags">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--7">
+                                        <div class="likes__left-side">Публикаций комментировать</div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__comments-settings-publications-to-comment-second-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__comments-settings-publications-to-comment-second-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--8">
+                                        <div class="likes__left-side">
+                                            Добавить комментарии
+                                            <input type="checkbox" class="likes__comments-settings-add-comments-checkbox">
+                                        </div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__comments-settings-path-to-comments">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--9">
+                                        <div class="likes__left-side">
+                                            Добавить шаблоны
+                                            <input type="checkbox" class="likes__comments-settings-add-patterns-checkbox">
+                                        </div>
+                                        <div class="likes__right-side">
+                                            <div class="likes__comments-settings-path-to-patterns">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--10">
+                                        <div class="likes__left-side">Комментариев оставлять</div>
+                                        <div class="likes__right-side">
+                                            от <input type="text" placeholder="-" class="likes__comments-settings-comments-to-leave-from gray-wrap">
+                                            до <input type="text" placeholder="-" class="likes__comments-settings-comments-to-leave-to gray-wrap">
+                                        </div>
+                                    </div>
+                                    <div class="likes__comments-settings-row likes__comments-settings-row--11">
+                                        <div class="likes__left-side">Удалить после использования?</div>
+                                        <div class="likes__right-side">
+                                            <input type="checkbox" class="likes__comments-settings-delete-after-using-checkbox">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/personal-area.js"></script>
+</body>
+</html>

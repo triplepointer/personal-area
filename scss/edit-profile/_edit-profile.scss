@@ -1,0 +1,401 @@
+.edit-profile {
+    &__wrap {
+        padding: 24px;
+    }
+    &__bottom {
+        display: flex;
+        margin-top: 24px;
+    }
+    /* Columns START */
+    
+    &__col {
+        &--1 {
+
+        }
+        &--2 {
+            margin-left: 24px;
+        }
+    }
+
+    &__columns {
+        display: flex;
+    }
+
+    /* Columns END */
+
+    /* Sides styles START */
+
+    &__left-side {
+        display: flex;
+        align-items: center;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+    }
+    &__right-side {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Sides styles END */
+
+                    /* Avatar setting START */
+
+    &__avatar-setting {
+        width: 448px;
+        height: 196px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-path-to-avatar {
+            font-family: "Roboto Bold";
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &--1 {
+                margin-top: 24px;
+            }
+            &--2 {
+                margin-top: 18px;
+            }
+            &--3 {
+                margin-top: 18px;
+            }
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+    }
+
+                    /* Avatar setting END */
+
+    &__email-setting {
+        margin-top: 24px;
+        width: 448px;
+        height: 196px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-pattern-checkbox, &-file-checkbox{
+            margin-right: 12px;
+        }
+        &-path-to-file, &-path-to-pattern {
+            font-family: "Roboto Bold";
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &--1 {
+                margin-top: 16px;
+            }
+            &--2 {
+                margin-top: 16px;
+            }
+            &--3 {
+                margin-top: 16px;
+            }
+        }
+    }
+
+                        /* Avatar setting END */
+
+                        /* Link-setting START*/
+
+    &__link-setting {
+        margin-top: 24px;
+        width: 448px;
+        height: 156px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-path-to-file {
+            font-family: "Roboto Bold";
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &--1 {
+                margin-top: 24px;
+            }
+            &--2 {
+                margin-top: 18px;
+            }
+        }
+    }
+
+                        /* Link-setting END*/
+
+                        /* Name and last name settings START */
+
+    &__name-and-last-name-settings {
+        width: 448px;
+        height: 236px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-name-path-to-file, &-last-name-path-to-file {
+            font-family: "Roboto Bold";
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-name-checkbox, &-last-name-checkbox {
+            margin-right: 12px;
+        }
+        &-pick-up-random-checkbox, &-delete-after-using-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &--1 {
+                margin-top: 16px;
+            }
+            &--2 {
+                margin-top: 16px;
+            }
+            &--3 {
+                margin-top: 16px;
+            }
+            &--4 {
+                margin-top: 18px;
+            }
+        }
+    }
+
+                        /* Name and last name settings END */
+
+                        /* Sex-setting START */
+
+    &__sex-setting {
+        width: 330px;
+        height: 115px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+        &-choose-sex {
+            display: flex;
+            justify-content: center;
+            margin-top: 24px;
+        }
+        &-man {
+            width: 71px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-female {
+            width: 69px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 16px;
+        }
+    }
+
+                        /* Sex-setting END */
+
+                        /* Privacy-setting START */
+
+    &__privacy-setting {
+        margin-top: 24px;
+        width: 330px;
+        height: 104px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                width: 145px;
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+    }
+
+                        /* Privacy-setting START */
+
+                        /* Privacy-setting START */
+
+    &__login-changing {
+        width: 330px;
+        height: 196px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-path-to-pattern, &-path-to-file {
+            font-family: "Roboto Bold";
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &--1 {
+                margin-top: 16px;
+            }
+            &--2 {
+                margin-top: 16px;
+            }
+        }
+    }
+
+                        /* Privacy-setting END */
+
+    &__password-changing {
+        margin-top: 24px;
+        width: 330px;
+        height: 125px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-row {
+            display: flex;
+            align-items: center;
+            &--1 {
+                margin-top: 24px;
+                font-family: Roboto;
+                font-size: 16px;
+                line-height: 22px;
+                color: #000000;
+            }
+            &--2 {
+                margin-top: 5px;
+                font-family: Roboto;
+                font-size: 12px;
+                line-height: 14px;
+                color: #000000;
+            }
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+    }
+}

@@ -1,0 +1,287 @@
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.btn-green {
+    height: 46px;
+    color: #F7F9FA;
+    background-color: #2FA84F;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Roboto";
+    border: none;
+}
+
+.btn-green--small {
+    font-size: 12px;
+}
+
+.header-chevron-right {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 9px;
+    margin-right: 10px;
+    width: 5px;
+    height: 8px;
+    background-image: url(../img/header-chevron-right.svg);
+}
+
+
+.chevron-down {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 9px;
+    width: 13px;
+    height: 7px;
+    background-image: url(../img/chevron_down.png);
+}
+
+.chevron-left {
+    cursor: pointer;
+    display: inline-block;
+    width: 5px;
+    height: 8px;
+    margin-right: 8px;
+    background-image: url(../img/chevron_left.png);
+}
+
+.chevron-down-accounts {
+    cursor: pointer;
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background-image: url(../img/chevron-down-accounts.png);
+}
+.chevron-up-accounts {
+    cursor: pointer;
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background-image: url(../img/chevron-up-accounts.png);
+}
+.chevron-down-faq {
+    cursor: pointer;
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background-image: url(../img/chevron-down-faq.png);
+}
+
+
+.expander {
+    cursor: pointer;
+    display: inline-block;
+    width: 7px;
+    height: 12px;
+    background-image: url(../img/chevron-right-expander.png);
+}
+
+.shrinker {
+    cursor: pointer;
+    display: inline-block;
+    width: 7px;
+    height: 12px;
+    background-image: url(../img/chevron-left-shrinker.png);
+}
+
+.youtube-icon {
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(../img/youtube-icon.png);
+    width: 21px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.instagram-icon {
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(../img/instagram-icon.svg);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.vk-icon {
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(../img/vk-icon.png);
+    width: 20px;
+    height: 12px;
+    background-repeat: no-repeat;
+}
+
+.gmail-icon {
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(../img/gmail-icon.png);
+    width: 20px;
+    height: 16px;
+}
+
+.telegram-icon {
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(../img/telegram-icon.png);
+    width: 18px;
+    height: 16px;
+}
+
+.set-avatar {
+    background: linear-gradient(180deg, #96DF1E 0%, #64EA2D 100%);
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+.set-description {
+    background: linear-gradient(180deg, #15FB43 0%, #10E55C 100%);
+    border-radius: 5px;
+        font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+.post-video {
+    background: linear-gradient(180deg, #FF4601 0%, #FF7101 100%);
+    border-radius: 5px;
+        font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+.post-photo {
+    background: linear-gradient(180deg, #FF1201 0%, #FF3901 100%);
+    border-radius: 5px;
+        font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+.set-link {
+    background: linear-gradient(180deg, #19D467 0%, #31A886 100%);
+    border-radius: 5px;
+        font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+.post-stories {
+    background: linear-gradient(180deg, #FFB601 0%, #E7CD08 100%);
+    border-radius: 5px;
+        font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+.liking {
+    background: linear-gradient(180deg, #BF01E1 0%, #D601D2 100%);
+    border-radius: 5px;
+        font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+.subscribe {
+    background: linear-gradient(180deg, #DE01CD 0%, #F601BE 100%);
+    border-radius: 5px;
+        font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+.commenting {
+    background: linear-gradient(180deg, #7F1EEA 0%, #B701E6 100%);
+    border-radius: 5px;
+        font-family: "Roboto";
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    height: 36px;
+    padding-top: 7.5px;
+    padding-bottom: 6.5px;
+    padding-left: 12px;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 44px;
+    height: 32px;
+    background-color: #DCF7E3;
+    border-radius: 5px;
+    margin-left: 24px;
+}
+.change-path-icon {
+    cursor: pointer;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url(../img/change-path-icon.svg);
+}
+
+.gray-wrap {
+    width: 37px;
+    height: 30px;
+    background: #F1F3F4;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.pale-wrap {
+    width: 37px;
+    height: 30px;
+    background: #DCF7E3;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.question-mark {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/question-mark.svg);
+}

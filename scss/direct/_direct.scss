@@ -1,0 +1,158 @@
+.direct {
+    &__wrap {
+        margin-top: 19px;
+        margin-left: 24px;   
+    }
+
+                /* Reply START */
+
+    &__reply {
+        width: 566px;
+        height: 292px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-path-to-pattern,
+        &-path-to-answers {
+            font-family: "Roboto Bold";
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+        }
+        &-checkbox,
+        &-use-list-checkbox,
+        &-delete-after-using-checkbox,
+        &-use-pattern-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            &--1 {
+                margin-top: 26px;
+                & .direct__left-side {
+                    font-family: "Roboto Bold";
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                }
+            }
+            &--2 {
+                margin-top: 18px;
+            }
+            &--3 {
+                margin-top: 17px;
+            }
+            &--4 {
+                margin-top: 27px;
+                & .direct__left-side {
+                    font-family: "Roboto Bold";
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                }
+            }
+            &--5 {
+                margin-top: 18px;
+            }
+        }
+    }
+
+                /* Reply END */
+    
+                /* Write START */
+
+    &__write {
+        margin-top: 24px;
+        width: 566px;
+        height: 276px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-amount-of-users-to-write-from, &-amount-of-users-to-write-to {
+            margin-left: 8px;
+            margin-right: 8px;
+            width: 37px;
+            height: 30px;
+        }
+        &-amount-of-users-to-write-to {
+            margin-right: 0px;
+        }
+        &-path-to-list {
+            font-family: "Roboto Bold";
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+        }
+        &-checkbox,
+        &-use-list-checkbox,
+        &-delete-after-using-first-checkbox,
+        &-delete-after-using-second-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            &--1 {
+                margin-top: 26px;
+                & .direct__left-side {
+                    font-family: "Roboto Bold";
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                }
+            }
+            &--2 {
+                margin-top: 18px;
+            }
+            &--3 {
+                margin-top: 17px;
+            }
+            &--4 {
+                margin-top: 17px;
+            }
+            &--5 {
+                margin-top: 14px;
+            }
+        }
+    }
+
+                /* Write END */
+
+    &__left-side {
+        display: flex;
+        align-items: center;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+    }
+    &__right-side {
+        display: flex;
+        align-items: center;
+    }
+}

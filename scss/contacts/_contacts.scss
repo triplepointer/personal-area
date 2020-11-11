@@ -1,0 +1,136 @@
+.contacts {
+    &__bottom {
+        display: flex;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+    }
+    &__link:nth-child(2) {
+        margin-top: 32px;
+    }
+    &__right-column {
+        margin-left: 27px;
+        margin-top: 66px;
+    }
+    &__telegram {
+        display: inline-block;
+        cursor: pointer;
+        width: 33px;
+        height: 30px;
+        background-image: url(../img/telegram-contacts.svg);
+        margin-right: 29px;
+    }
+    &__telegram-text {
+        display: inline-block;
+        width: 138px;
+        height: 12px;
+        cursor: pointer;
+        background-image: url(../img/INSTTRAFFIC-contacts.svg);
+        background-repeat: no-repeat;
+    }
+    &__gmail {
+        display: inline-block;
+        cursor: pointer;
+        width: 34px;
+        height: 27px;
+        margin-right: 29px;
+        background-image: url(../img/gmail-contacts.svg);
+    }
+    &__gmail-text {
+        display: inline-block;
+        cursor: pointer;
+        width: 137px;
+        height: 12px;
+        background-repeat: no-repeat;
+        background-image: url(../img/NSTTRAFFIC2020@gmail.com-contacts.svg);
+    }
+    &__title {
+            height: 60px;
+            border-bottom: 1px solid #2FA84F;
+            display: flex;
+            max-width: 1156px;
+            align-items: center;
+            padding-left: 12px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+            font-family: "Roboto Bold";
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+    }
+    &__form {
+        margin-top: 24px;
+        padding-top: 24px;
+        padding-left: 16px;
+        width: 684px;
+        height: 427px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+    }
+    &__wrap {
+        padding: 24px;
+    }
+    &__name {
+        display: block;
+        padding: 12px 0px 12px 16px;
+        width: 314px;
+        height: 46px;
+        margin-top: 16px;
+        background: #F1F3F4;
+        border: none;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+
+    }
+    &__tel {
+        padding: 12px 0px 12px 16px;
+        display: block;
+        margin-top: 16px;
+        background: #F1F3F4;
+        border: none;
+        width: 196px;
+        height: 46px;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+    }
+    &__your-question {
+        padding: 12px 0px 12px 16px;
+        display: block;
+        margin-top: 16px;
+        background: #F1F3F4;
+        border: none;
+        width: 550px;
+        height: 150px;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+        resize: none;
+    }
+    &__sub-wrap {
+        display: flex;
+        align-items: center;
+        width: 550px;
+        min-height: 38px;
+        margin-top: 16px;
+        justify-content: space-between;
+    }
+    &__rights {
+        font-family: "Roboto";
+        font-size: 12px;
+        line-height: 14px;
+        color: #151515;
+        margin-left: 12px;
+    }
+    &__left-side {
+        display: flex;
+        width: 360px;
+        height: 28px;
+        align-items: center;
+    }
+}

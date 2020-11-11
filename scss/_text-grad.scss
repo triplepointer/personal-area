@@ -1,0 +1,54 @@
+.insta {
+    display: inline-block;
+    background-image: url(../../img/INSTAGRAM.png);
+    background-repeat: no-repeat;
+    width: 277px;
+    height: 35px;
+}
+
+.insttr {
+    display: inline-block;
+    background-image: url(../img/INSTTRAFFIC.png);
+    background-repeat: no-repeat;
+    width: 206px;
+    height: 24px;
+    &-sm {
+        display: inline-block;
+        background-image: url(../img/INSTTRAFFIC-sm.png);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 18px;
+    }
+}
+
+.rubles-70 {
+    display: inline-block;
+    width: 68px;
+    height: 26px;
+    background-image: url(../img/70_₽.png);
+    background-repeat: no-repeat;
+}
+
+.rubles-39 {
+    display: inline-block;
+    width: 68px;
+    height: 26px;
+    background-image: url(../img/39_₽.png);
+    background-repeat: no-repeat;
+}
+
+.rubles-35 {    
+    display: inline-block;
+    width: 68px;
+    height: 26px;
+    background-image: url(../img/35_₽.png);
+    background-repeat: no-repeat;
+}
+
+.rubles-30 {
+    display: inline-block;
+    width: 68px;
+    height: 26px;
+    background-image: url(../img/30_₽.png);
+    background-repeat: no-repeat;
+}

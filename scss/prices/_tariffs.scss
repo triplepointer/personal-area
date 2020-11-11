@@ -1,0 +1,118 @@
+.tariffs {
+    &__title {
+        font-family: "Roboto Bold";
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;
+        margin-left: 24px;
+    }
+    &__button {
+        margin-top: 55px;
+
+    }        
+    &__wrap {
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 120px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__period {
+        width: 119px;;
+        height: 56px;
+
+        font-family: "Roboto Bold";
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+
+        color: #000000;
+    }
+    &__price {
+        margin-top: 40px;
+        width: 140px;
+        height: 38px;
+
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    &__block {
+        display:flex;
+        flex-direction: column;
+        padding-top: 24px;
+        text-align: center;
+        align-items: center;
+        width: 271px;
+        height: 315px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        margin-left: 24px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.tariffs__button:first-child {
+    margin-top: 82px;
+}
+
+@media all and (max-width: 1172px) {
+    .tariffs {
+        &__block {
+            &--4{
+                margin-top: 24px;
+                // margin-left: 0px;
+            }
+        }
+        &__block:first-child {
+            margin-left: 21px;
+        }
+    }
+}
+
+@media all and (max-width: 898px) {
+    .tariffs {
+        &__block {
+            &--3{
+                margin-top: 24px;
+                // margin-left: 0px;
+            }
+        }
+        &__block:first-child {
+            margin-left: 22px;
+        }
+    }
+}
+
+@media all and (max-width: 604px) {
+    .tariffs {
+        &__title {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &__block {
+            &--2{
+                margin-top: 24px;
+                // margin-left: 0px;
+            }
+        }
+        &__block:first-child {
+            margin-left: 23px;
+        }
+    }
+}
+
+@media all and (max-width: 375px){
+    .tariffs {
+        &__block {
+            width: 327px;
+        }
+        &__button {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

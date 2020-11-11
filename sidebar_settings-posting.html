@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/posting.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__wrap">
+                <div class="header__left-side">
+                    <a href="#" class="header__logo"></a>
+                    <a href="#" class="header__button"><i class="chevron-left"></i> Назад</a>
+                    <a href="personal_area.html" class="header__main-page">Главная</a>
+                    <i class="header-chevron-right"></i>
+                    <a href="#" class="header__settings">Настройки</a>
+                    <i class="header-chevron-right"></i>
+                    <a href="#" class="header__settings">Постинг</a>
+                </div>
+                <div class="header__right-side">
+                    <div class="header__notifications"></div>
+                    <div class="header__user-image"></div>
+                    <div class="header__user-name">Vladislav <i class="chevron-down"></i></div>
+                </div>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <ul class="sidebar__categories">
+                <li><a href="#" class="sidebar__logo-category"><i class="sidebar__blocks-image"></i><div class="header__logo"></div></a></li>
+                <li class="sidebar__settings">
+                    <a href="#" class="sidebar__settings-top"><i class="sidebar__settings-image"></i>
+                        <div class="sidebar__text">Настройки</div></a>
+                    <ul class="sidebar__settings-bottom">
+                            <li><a href="sidebar_settings-basic.html" class="sidebar__text active">Основные</a></li>
+                            <li><a href="sidebar_settings-posting.html" class="sidebar__text">Постинг</a></li>
+                            <li><a href="sidebar_settings-edit-profile.html" class="sidebar__text">Редактирование профиля</a></li>
+                            <li><a href="sidebar-settings-likes.html" class="sidebar__text">Лайки, подписки, комментарии</a></li>
+                            <li><a href="sidebar-settings-marking.html" class="sidebar__text">Отмечалка</a></li>
+                            <li><a href="sidebar-settings-proxy.html" class="sidebar__text">Прокси</a></li>
+                            <li><a href="sidebar-settings-direct.html" class="sidebar__text">Директ</a></li>
+                    </ul>
+                </li>
+                <li><a href="log.html" class="sidebar__log-category"><i class="sidebar__log-image"></i><div class="sidebar__text">Лог</div></a></li>
+                <li><a href="prices.html" class="sidebar__prices-category"><i class="sidebar__prices-image"></i><div class="sidebar__text">Цены</div></a></li>
+                <li><a href="faq.html" class="sidebar__faq-category"><i class="sidebar__faq-image"></i><div class="sidebar__text">F.A.Q.</div></a></li>
+                <li><a href="contacts.html" class="sidebar__contacts-category"><i class="sidebar__contacts-image"></i><div class="sidebar__text">Контакты</div></a></li>
+                <li><a href="randomizer.html" class="sidebar__randomizer-category"><i class="sidebar__randomizer-image"></i><div class="sidebar__text">Рандомизатор хэштегов</div></a></li>
+                <li><a href="partners.html" class="sidebar__partners-category"><i class="sidebar__partners-image"></i><div class="sidebar__text">Партнерская программа</div></a></li>
+                <li><a href="#" class="sidebar__all-blocks-category"><i class="sidebar__all-blocks-image"></i><div class="sidebar__text">Все блоки</div></a></li>
+            </ul>
+            <div class="sidebar__expander"><i class="expander"></i></div>
+            <div class="sidebar__shrinker"><i class="shrinker"></i>Свернуть</div>
+        </aside>
+        <main class="content">
+            <div class="content__wrap">
+                <div class="posting">
+                    <div class="posting__wrap">
+                        <div class="posting__columns">
+                            <div class="posting__col posting__col--1">
+                                <div class="posting__posts">
+                                    <div class="posting__posts-title">
+                                        <div class="posting__posts-left-side">
+                                            <div class="posting__posts-title-text">Постинг постов</div>
+                                            <input type="checkbox" class="posting__posts-checkbox">
+                                        </div>
+                                        <div class="posting__posts-right-side">
+                                            <div class="question-mark"></div>
+                                        </div>
+                                    </div>
+                                    <div class="posting__posts-row posting__posts-row--1">
+                                        <div class="posting__posts-left-side">
+                                            <input type="checkbox" class="posting__posts-photo-checkbox">
+                                            <div class="posting__posts-row-text">фото</div>
+                                        </div>
+                                        <div class="posting__posts-right-side">
+                                            <div class="posting__posts-path-to-file">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                        </div>
+                                        
+
+                                    <div class="posting__posts-row posting__posts-row--2">
+                                        <div class="posting__posts-left-side">
+                                            <input type="checkbox" class="posting__posts-video-checkbox">
+                                            <div class="posting__posts-row-text">видео</div>
+                                        </div>
+                                        <div class="posting__posts-right-side">
+                                            <div class="posting__posts-path-to-file">/Users/vlad/video/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__posts-row posting__posts-row--3">
+                                        <div class="posting__posts-left-side">
+                                            <input type="checkbox" class="posting__posts-random-checkbox">
+                                            <div class="posting__posts-row-text">рандом</div>
+                                        </div>
+                                        <div class="posting__posts-right-side">
+                                            <div class="posting__posts-photo-text">фото</div>  <input type="text" class="gray-wrap-percent" placeholder="50%">
+                                            <div class="posting__posts-video-text">видео</div> <input type="text" placeholder="50%" class="gray-wrap-percent">
+                                        </div>
+                                    </div>
+                                    <div class="posting__posts-row posting__posts-row--4">
+                                        <div class="posting__posts-left-side">
+                                            <input type="checkbox" class="posting__posts-carusel-checkbox">
+                                            <div class="posting__posts-row-text">карусель</div>
+                                        </div>
+                                        <div class="posting__posts-right-side">
+                                            файлов в карусели <input type="text" class="gray-wrap-percent" placeholder="1-10">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="posting__posts-row-carusel">
+                                        <div class="posting__posts-left-side"></div>
+                                        <div class="posting__posts-right-side">
+                                            <div class="posting__posts-photo-text">фото</div>  <input type="text" class="gray-wrap-percent" placeholder="100%">
+                                            <div class="posting__posts-video-text">видео</div> <input type="text" placeholder="0%" class="gray-wrap-percent">
+                                        </div>
+                                    </div>
+                                    <div class="posting__posts-row posting__posts-row--5">
+                                        <div class="posting__posts-left-side">
+                                            Удалить после использования
+                                        </div>
+                                        <div class="posting__posts-right-side">
+                                            <input type="checkbox" class="posting__posts-delete-after-using-checkbox">
+                                        </div>
+                                    </div>
+                                    <div class="posting__posts-row posting__posts-row--6">
+                                            <div class="posting__posts-left-side">
+                                                Брать случайные
+                                            </div>
+                                            <div class="posting__posts-right-side">
+                                                <input type="checkbox" class="posting__posts-pick-up-random-posts-checkbox">
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="posting__splash-screen">
+                                    <div class="posting__splash-screen-title">
+                                        <div class="posting__splash-screen-left-side">
+                                            <div class="posting__splash-screen-title-text">Постинг постов</div>
+                                            <input type="checkbox" class="posting__splash-screen-checkbox">
+                                        </div>
+                                        <div class="posting__splash-screen-right-side">
+                                            <div class="question-mark"></div>
+                                        </div>
+                                    </div>
+                                    <div class="posting__splash-screen-row posting__splash-screen-row--1">
+                                        <div class="posting__splash-screen-left-side">
+                                            Заставка
+                                        </div>
+                                        <div class="posting__splash-screen-right-side">
+                                            <div class="posting__splash-screen-path-to-file">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__splash-screen-row posting__splash-screen-row--2">
+                                        <div class="posting__splash-screen-left-side">
+                                            Удалить после испльзования
+                                        </div>
+                                        <div class="posting__splash-screen-right-side">
+                                            <input type="checkbox" class="posting__splash-screen-delete-after-using-checkbox">
+                                        </div>
+                                    </div>
+                                    <div class="posting__splash-screen-row posting__splash-screen-row--3">
+                                        <div class="posting__splash-screen-left-side">
+                                            Брать случайные
+                                        </div>
+                                        <div class="posting__splash-screen-right-side">
+                                            <input type="checkbox" class="posting__splash-screen-pick-up-random-screen-splash-checkbox">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="posting__post-description">
+                                    <div class="posting__post-description-title">
+                                        <div class="posting__post-description-left-side">
+                                            <div class="posting__post-description-title-text">Описание к постам</div>
+                                            <input type="checkbox" class="posting__post-description-checkbox">
+                                        </div>
+                                        <div class="posting__post-description-right-side">
+                                            <div class="question-mark"></div>
+                                        </div>
+                                    </div>
+                                    <div class="posting__post-description-row posting__post-description-row--1">
+                                        <div class="posting__post-description-left-side">
+                                            <input type="checkbox" class="posting__post-description-file-checkbox">файл</div>
+                                        <div class="posting__post-description-right-side">
+                                            <div class="posting__splash-screen-path-to-file">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__post-description-row posting__post-description-row--2">
+                                        <div class="posting__post-description-left-side">
+                                            <input type="checkbox" class="posting__post-description-pattern-checkbox">шаблон</div>
+                                        <div class="posting__post-description-right-side">
+                                            <div class="posting__splash-screen-path-to-file">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__post-description-row posting__post-description-row--3">
+                                        <div class="posting__post-description-left-side">Удалить после использования</div>
+                                        <div class="posting__post-description-right-side">
+                                            <input type="checkbox" class="posting__post-description-delete-after-using-checkbox">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__col posting__col--2">
+                                <div class="posting__stories">
+                                    <div class="posting__stories-title">
+                                        <div class="posting__stories-left-side">
+                                            <div class="posting__stories-title-text">Постинг сторис</div>
+                                            <input type="checkbox" class="posting__stories-checkbox">
+                                        </div>
+                                        <div class="posting__stories-right-side">
+                                            <div class="question-mark"></div>
+                                        </div>
+                                    </div>
+                                    <div class="posting__stories-row posting__stories-row--1">
+                                        <div class="posting__stories-left-side">
+                                            <input type="checkbox" class="posting__stories-photo-checkbox">фото
+                                        </div>
+                                        <div class="posting__stories-right-side">
+                                            <div class="posting__stories-path-to-photo">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__stories-row posting__stories-row--2">
+                                        <div class="posting__stories-left-side">
+                                            <input type="checkbox" class="posting__stories-video-checkbox">видео
+                                        </div>
+                                        <div class="posting__stories-right-side">
+                                            <div class="posting__stories-path-to-photo">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__stories-row posting__stories-row--3">
+                                        <div class="posting__stories-left-side">
+                                            Удалить после использования
+                                        </div>
+                                        <div class="posting__stories-right-side">
+                                            <input type="checkbox" class="posting__stories-delete-after-using-checkbox">
+                                        </div>
+                                    </div>
+                                    <div class="posting__stories-row posting__stories-row--4">
+                                        <div class="posting__stories-left-side">
+                                            Брать случайные
+                                        </div>
+                                        <div class="posting__stories-right-side">
+                                            <input type="checkbox" class="posting__stories-pick-up-random-checkbox">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="posting__add-geo">
+                                    <div class="posting__add-geo-title">
+                                        <div class="posting__add-geo-left-side">
+                                            <div class="posting__add-geo-title-text">Добавление ГЕО</div>
+                                            <input type="checkbox" class="posting__add-geo-checkbox">
+                                        </div>
+                                        <div class="posting__add-geo-right-side">
+                                            <div class="question-mark"></div>
+                                        </div>
+                                    </div>
+                                    <div class="posting__add-geo-row posting__add-geo-row--1">
+                                        <div class="posting__add-geo-left-side">
+                                            <input type="checkbox" class="posting__add-geo-file-checkbox">файл
+                                        </div>
+                                        <div class="posting__add-geo-right-side">
+                                            <div class="posting__add-geo-path-to-file">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__add-geo-row posting__add-geo-row--2">
+                                        <div class="posting__add-geo-left-side">
+                                            Брать случайные
+                                        </div>
+                                        <div class="posting__add-geo-right-side">
+                                            <input type="checkbox" class="posting__add-geo-pick-up-random-checkbox">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="posting__first-comment">
+                                    <div class="posting__first-comment-title">
+                                        <div class="posting__first-comment-left-side">
+                                            <div class="posting__first-comment-title-text">1-й комментарий к посту</div>
+                                            <input type="checkbox" class="posting__first-comment-checkbox">
+                                        </div>
+                                        <div class="posting__first-comment-right-side">
+                                            <div class="question-mark"></div>
+                                        </div>
+                                    </div>
+                                    <div class="posting__first-comment-row">
+                                        <div class="posting__first-comment-left-side">
+                                            <input type="checkbox" class="posting__first-comment-file-checkbox">
+                                            файл
+                                        </div>
+                                        <div class="posting__first-comment-right-side">
+                                            <div class="posting__first-comment-path-to-file">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__first-comment-row">
+                                        <div class="posting__first-comment-left-side">
+                                            <input type="checkbox" class="posting__first-comment-pattern-checkbox">
+                                            шаблон
+                                        </div>
+                                        <div class="posting__first-comment-right-side">
+                                            <div class="posting__first-comment-path-to-pattern">/Users/vlad/photo/</div>
+                                            <label for="file-upload" class="custom-file-upload">
+                                                <i class="change-path-icon"></i>
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                        </div>
+                                    </div>
+                                    <div class="posting__first-comment-row">
+                                        <div class="posting__first-comment-left-side">Удалять после использования</div>
+                                        <div class="posting__first-comment-right-side">
+                                            <input type="checkbox" class="posting__first-comment-delete-after-using-checkbox">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/personal-area.js"></script>
+</body>
+</html>

@@ -1,0 +1,398 @@
+.posting{
+    &__wrap {
+        padding: 24px;
+    }
+
+    /* Columns START */
+
+    &__columns {
+        display: flex;
+    }
+    &__col {
+
+        &--2 {
+            margin-left: 24px;
+        }
+    }
+
+    /* Columns END */
+
+    /* Posts START */
+
+    &__posts {
+    width: 448px;
+    height: 379px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    &-row {
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        &--1 {
+            margin-top: 24px;
+        }
+    }
+    .gray-wrap-percent {
+        width: 62px;
+        height: 34px;
+        background: #F1F3F4;
+        border-radius: 5px;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        text-align: center;
+        border: none;
+        color: #000000;
+        margin-left: 8px;
+    }
+    &-row-text {
+        margin-left: 12px;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    &-path-to-file {
+        font-family: "Roboto Bold";
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    &-checkbox {
+        margin-left: 19px;
+    }
+    &-left-side {
+        display: flex;
+        align-items: center;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+    }
+    &-carusel-top {
+        display: flex;
+        align-items: center;
+    }
+    &-row-carusel {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-video-text {
+        margin-left: 16px;
+    }
+    &-right-side {
+        display: flex;
+        align-items: center;
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    &-title {
+        display: flex;
+        justify-content: space-between;
+        &-text {
+            font-family: "Roboto Bold";
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+    }
+    &-title &-right-side {
+        align-items: start;
+    }
+    }
+
+        /* Posts END */
+
+        /* Splash-screen START */
+
+    &__splash-screen {
+        margin-top: 26px;
+        width: 448px;
+        height: 196px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-title &-right-side {
+            align-items: start;
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 18px;
+            &--1 {
+                margin-top: 24px;
+            }
+        }
+
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-left-side {
+            display: flex;
+            align-items: center;
+            font-family: "Roboto";
+            font-size: 16px;
+            line-height: 22px;
+            color: #000000;
+        }
+        &-right-side {
+            display: flex;
+            align-items: center;
+        }
+        &-path-to-file {
+            font-family: "Roboto Bold";
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-title {
+            display: flex;
+            justify-content: space-between;
+            &-text {
+                font-family: "Roboto Bold";
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+            }
+        }
+    }
+
+        /* Splash-screen END */
+
+        /* Post-description START */
+
+    &__post-description {
+        margin-top: 24px;
+        width: 448px;
+        height: 196px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-file-checkbox, &-pattern-checkbox {
+            margin-right: 12px;
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+        }
+        &-title {
+            display: flex;
+            justify-content: space-between;
+            font-family: "Roboto Bold";
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+        &-title-text {
+            font-family: "Roboto Bold";
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+        &-left-side {
+            display: flex;
+            align-items: center;
+            font-family: "Roboto";
+            font-size: 16px;
+            line-height: 22px;
+            color: #000000;
+        }
+        &-right-side {
+            display: flex;
+            align-items: center;
+        }
+        &-title &-right-side {
+            align-items: start;
+        }
+    }
+
+        /* Post-description END */
+
+        /* Stories START */
+    
+    &__stories {
+        width: 448px;
+        height: 242px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-photo-checkbox, &-video-checkbox {
+            margin-right: 12px;
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-title-text {
+            font-family: "Roboto Bold";
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+        &-title &-right-side {
+            align-items: start;
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+            &--1 {
+                margin-top: 24px;
+            }
+        }
+        &-left-side {
+            display: flex;
+            align-items: center;
+            font-family: "Roboto";
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-path-to-photo, &-path-to-video {
+            font-family: "Roboto Bold";
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-right-side {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+        /* Stories END */
+
+        /* Add-geo START */
+
+    &__add-geo {
+        margin-top: 26px;
+        width: 448px;
+        height: 156px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-title {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-title-text {
+            font-family: "Roboto Bold";
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+            margin-right: 19px;
+        }
+        &-left-side {
+            display: flex;
+            align-items: center;
+            font-family: "Roboto";
+            font-size: 16px;
+            line-height: 22px;
+            color: #000000;
+        }
+        &-right-side {
+            display: flex;
+            align-items: center;
+        }
+        &-title &-right-side {
+            align-items: start;
+        }
+        &-path-to-file {
+            font-family: "Roboto Bold";
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-file-checkbox {
+            margin-right: 12px;
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            &--1 {
+                margin-top: 24px;
+            }
+            &--2 {
+                margin-top: 15px;
+            }
+        }
+    }
+
+        /* Add-geo END */
+
+        /* First-comment START */
+
+    &__first-comment {
+        margin-top: 24px;
+        width: 448px;
+        height: 196px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+        padding-top: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        &-title {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-checkbox {
+            margin-left: 19px;
+        }
+        &-title-text {
+            font-family: "Roboto Bold";
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+        }
+        &-file-checkbox, &-pattern-checkbox {
+            margin-right: 12px;
+        }
+        &-left-side {
+            display: flex;
+            align-items: center;
+            font-family: "Roboto";
+            font-size: 16px;
+            line-height: 22px;
+            color: #000000;
+        }
+        &-path-to-pattern, &-path-to-file {
+            font-family: "Roboto Bold";
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+        &-right-side {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+        /* First-comment END */
+}

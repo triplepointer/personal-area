@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/proxy.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__wrap">
+                <div class="header__left-side">
+                    <a href="#" class="header__logo"></a>
+                    <a href="#" class="header__button"><i class="chevron-left"></i> Назад</a>
+                    <a href="personal_area.html" class="header__main-page">Главная</a>
+                    <i class="header-chevron-right"></i>
+                    <a href="#" class="header__settings">Настройки</a>
+                    <i class="header-chevron-right"></i>
+                    <a href="#" class="header__settings">Прокси</a>
+                </div>
+                <div class="header__right-side">
+                    <div class="header__notifications"></div>
+                    <div class="header__user-image"></div>
+                    <div class="header__user-name">Vladislav <i class="chevron-down"></i></div>
+                </div>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <ul class="sidebar__categories">
+                <li><a href="#" class="sidebar__logo-category"><i class="sidebar__blocks-image"></i><div class="header__logo"></div></a></li>
+                <li class="sidebar__settings">
+                    <a href="#" class="sidebar__settings-top"><i class="sidebar__settings-image"></i>
+                        <div class="sidebar__text">Настройки</div></a>
+                    <ul class="sidebar__settings-bottom">
+                            <li><a href="sidebar_settings-basic.html" class="sidebar__text active">Основные</a></li>
+                            <li><a href="sidebar_settings-posting.html" class="sidebar__text">Постинг</a></li>
+                            <li><a href="sidebar_settings-edit-profile.html" class="sidebar__text">Редактирование профиля</a></li>
+                            <li><a href="sidebar-settings-likes.html" class="sidebar__text">Лайки, подписки, комментарии</a></li>
+                            <li><a href="sidebar-settings-marking.html" class="sidebar__text">Отмечалка</a></li>
+                            <li><a href="sidebar-settings-proxy.html" class="sidebar__text">Прокси</a></li>
+                            <li><a href="sidebar-settings-direct.html" class="sidebar__text">Директ</a></li>
+                    </ul>
+                </li>
+                <li><a href="log.html" class="sidebar__log-category"><i class="sidebar__log-image"></i><div class="sidebar__text">Лог</div></a></li>
+                <li><a href="prices.html" class="sidebar__prices-category"><i class="sidebar__prices-image"></i><div class="sidebar__text">Цены</div></a></li>
+                <li><a href="faq.html" class="sidebar__faq-category"><i class="sidebar__faq-image"></i><div class="sidebar__text">F.A.Q.</div></a></li>
+                <li><a href="contacts.html" class="sidebar__contacts-category"><i class="sidebar__contacts-image"></i><div class="sidebar__text">Контакты</div></a></li>
+                <li><a href="randomizer.html" class="sidebar__randomizer-category"><i class="sidebar__randomizer-image"></i><div class="sidebar__text">Рандомизатор хэштегов</div></a></li>
+                <li><a href="partners.html" class="sidebar__partners-category"><i class="sidebar__partners-image"></i><div class="sidebar__text">Партнерская программа</div></a></li>
+                <li><a href="#" class="sidebar__all-blocks-category"><i class="sidebar__all-blocks-image"></i><div class="sidebar__text">Все блоки</div></a></li>
+            </ul>
+            <div class="sidebar__expander"><i class="expander"></i></div>
+            <div class="sidebar__shrinker"><i class="shrinker"></i>Свернуть</div>
+        </aside>
+        <main class="content">
+            <div class="content__wrap">
+                <div class="proxy">
+                    <div class="proxy__wrap">
+                        <div class="proxy__title">
+                            <div class="proxy__title-text">Использовать прокси
+                                <input type="checkbox" class="proxy__use-proxy-checkbox">
+                            </div>
+                        </div>
+                        <div class="proxy__row proxy__row--1">
+                            <div class="proxy__left-side">
+                                Мобильные прокси
+                                <input type="checkbox" class="proxy__mobile-proxy-checkbox">
+                            </div>
+                            <div class="proxy__right-side"></div>
+                        </div>
+                        <div class="proxy__row proxy__row--2">
+                            <div class="proxy__left-side">
+                                Прокси
+                            </div>
+                            <div class="proxy__right-side">
+                                <div class="proxy__path-to-proxy">/Users/vlad/photo/</div>
+                            <label for="file-upload" class="custom-file-upload">
+                                <i class="change-path-icon"></i>
+                            </label>
+                            <input id="file-upload" type="file"/></div>
+                        
+                        </div>
+                        <div class="proxy__row proxy__row--3">
+                            <div class="proxy__left-side">
+                                Смена IP по API
+                                <input type="checkbox" class="proxy__replace-ip-by-api-checkbox">
+                            </div>
+                            <div class="proxy__right-side">
+                                <div class="proxy__path-to-ip-by-api">/Users/vlad/photo/</div>
+                            <label for="file-upload" class="custom-file-upload">
+                                <i class="change-path-icon"></i>
+                            </label>
+                            <input id="file-upload" type="file"/></div>
+                            
+                        </div>
+                        <div class="proxy__row proxy__row--4">
+                            <div class="proxy__left-side">
+                                IPv4
+                                <input type="checkbox" class="proxy__ipv4-checkbox">
+                            </div>
+                            <div class="proxy__right-side">
+                                <div class="proxy__path-to-ipv4">/Users/vlad/photo/</div>
+                            <label for="file-upload" class="custom-file-upload">
+                                <i class="change-path-icon"></i>
+                            </label>
+                            <input id="file-upload" type="file"/></div>
+                    
+                        </div>
+                        <div class="proxy__row proxy__row--5">
+                            <div class="proxy__left-side">
+                                IPv6
+                                <input type="checkbox" class="proxy__ipv6-checkbox">
+                            </div>
+                            <div class="proxy__right-side">
+                                <div class="proxy__path-to-ipv6">/Users/vlad/photo/</div>
+                            <label for="file-upload" class="custom-file-upload">
+                                <i class="change-path-icon"></i>
+                            </label>
+                            <input id="file-upload" type="file"/></div>
+                            
+                        </div>
+                        <div class="proxy__row proxy__row--6">
+                            <div class="proxy__left-side">
+                                Socks4
+                                <input type="checkbox" class="proxy__socks4-checkbox">
+                            </div>
+                            <div class="proxy__right-side">
+                                <div class="proxy__path-to-socks4">/Users/vlad/photo/</div>
+                            <label for="file-upload" class="custom-file-upload">
+                                <i class="change-path-icon"></i>
+                            </label>
+                            <input id="file-upload" type="file"/></div>
+                            
+                        </div>
+                        <div class="proxy__row proxy__row--7">
+                            <div class="proxy__left-side">
+                                Socks5
+                                <input type="checkbox" class="proxy__socks5-checkbox">
+                            </div>
+                            <div class="proxy__right-side">
+                                <div class="proxy__path-to-socks5">/Users/vlad/photo/</div>
+                            <label for="file-upload" class="custom-file-upload">
+                                <i class="change-path-icon"></i>
+                            </label>
+                            <input id="file-upload" type="file"/></div>
+                            
+                        </div>
+                        <div class="proxy__row proxy__row--8">
+                            <div class="proxy__left-side">
+                                Если в файле несколько прокси
+                            </div>
+                            <div class="proxy__right-side"></div>
+                        </div>
+                        <div class="proxy__row proxy__row--9">
+                            <div class="proxy__left-side">
+                                Брать случайные
+                                <input type="checkbox" class="proxy__pick-up-random-checkbox">
+                            </div>
+                            <div class="proxy__right-side"></div>
+                        </div>
+                        <div class="proxy__row proxy__row--10">
+                            <div class="proxy__left-side">
+                                Брать по кругу
+                                <input type="checkbox" class="proxy__pick-up-in-loop-checkbox">
+                            </div>
+                            <div class="proxy__right-side"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/personal-area.js"></script>
+</body>
+</html>
