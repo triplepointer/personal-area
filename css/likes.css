@@ -924,11 +924,8 @@ input[type="file"] {
   /* Comments-settings END */
 }
 
-.likes__wrap {
-  padding: 24px;
-}
-
-.likes__col--2 {
+.likes__col {
+  margin-top: 24px;
   margin-left: 24px;
 }
 
@@ -936,6 +933,8 @@ input[type="file"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .likes__left-side {

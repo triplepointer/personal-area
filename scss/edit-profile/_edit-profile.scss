@@ -1,24 +1,27 @@
 .edit-profile {
     &__wrap {
-        padding: 24px;
+        // padding: 24px;
     }
     &__bottom {
         display: flex;
-        margin-top: 24px;
+        flex-wrap: wrap;
+        
     }
     /* Columns START */
     
-    &__col {
+    &__col {margin-top: 24px;
+        margin-left: 24px;
         &--1 {
-
+            // margin-right: 24px;
         }
         &--2 {
-            margin-left: 24px;
+            
         }
     }
 
     &__columns {
         display: flex;
+        flex-wrap: wrap;
     }
 
     /* Columns END */

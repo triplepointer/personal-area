@@ -935,18 +935,16 @@ input[type="file"] {
   /* Privacy-setting END */
 }
 
-.edit-profile__wrap {
-  padding: 24px;
-}
-
 .edit-profile__bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 24px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.edit-profile__col--2 {
+.edit-profile__col {
+  margin-top: 24px;
   margin-left: 24px;
 }
 
@@ -954,6 +952,8 @@ input[type="file"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .edit-profile__left-side {

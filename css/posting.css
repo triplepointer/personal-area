@@ -932,17 +932,16 @@ input[type="file"] {
   /* First-comment END */
 }
 
-.posting__wrap {
-  padding: 24px;
-}
-
 .posting__columns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.posting__col--2 {
+.posting__col {
+  margin-top: 24px;
   margin-left: 24px;
 }
 
