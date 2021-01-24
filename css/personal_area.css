@@ -511,6 +511,12 @@ input[type="file"] {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 700px) {
+  .header {
+    display: none;
+  }
+}
+
 .sidebar {
   font-family: "Roboto Bold";
   font-size: 16px;
@@ -907,6 +913,12 @@ input[type="file"] {
   list-style-type: none;
 }
 
+@media screen and (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 .content {
   background: #E5E5E5;
   -ms-grid-row: 2;
@@ -915,34 +927,9 @@ input[type="file"] {
   position: relative;
 }
 
-.content__button-pause {
-  position: absolute;
-  width: 93px;
-  height: 46px;
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 22px;
-  color: #3E4345;
-  background: #DCF7E3;
-  border-radius: 5px;
-  padding: 12px 24px;
-  bottom: 40px;
-  right: 138px;
-}
-
-.content__button-start {
-  position: absolute;
-  width: 91px;
-  height: 46px;
-  padding: 12px 24px;
-  background: #2FA84F;
-  border-radius: 5px;
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 22px;
-  color: #F7F9FA;
-  bottom: 40px;
-  right: 23px;
+.content__accounts-in-workings-header, .content__accounts-in-workings-cell {
+  padding-left: 10px;
+  text-align: center;
 }
 
 .content__accounts-in-workings-title {
@@ -976,11 +963,6 @@ input[type="file"] {
 
 .content__accounts-in-workings-columns {
   padding: 16px 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .content__accounts-in-workings-col {
@@ -989,7 +971,6 @@ input[type="file"] {
 
 .content__accounts-in-workings-header {
   height: 60px;
-  width: 100%;
   text-align: center;
   font-family: "Roboto Bold";
   display: -webkit-box;
@@ -1017,12 +998,93 @@ input[type="file"] {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  border-top: 1px solid #DCF7E3;
   height: 60px;
   font-family: "Roboto";
   font-size: 12px;
   line-height: 14px;
   text-align: center;
   color: #000000;
+}
+
+.content__accounts-in-workings-row--border {
+  border-top: 1px solid #DCF7E3;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+
+table td {
+  text-align: center;
+  width: 10%;
+}
+
+table th {
+  text-align: center;
+  width: 10%;
+}
+
+@media screen and (max-width: 1360px) {
+  .content__accounts-in-workings-headers {
+    display: none;
+  }
+  .content__accounts-in-workings-cells {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content__accounts-in-workings-row {
+    height: auto;
+    display: block;
+  }
+  .content__accounts-in-workings-cell {
+    width: 100%;
+    text-align: end;
+  }
+  .content__accounts-in-workings-row:nth-child(2), .content__accounts-in-workings-row:nth-child(3) {
+    margin-left: 20px;
+  }
+  table td {
+    display: block;
+    border: 1px solid #2FA84F;
+    border-bottom: none;
+    text-align: end;
+  }
+  table td:last-child {
+    border-bottom: 1px solid #2FA84F;
+  }
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-family: "Roboto Bold";
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .content__accounts-in-workings-cells {
+    display: block;
+  }
+  .content__accounts-in-workings-row:nth-child(2), .content__accounts-in-workings-row:nth-child(3) {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .content__accounts-in-workings {
+    width: 100%;
+    margin: 24px 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .page {
+    display: block;
+  }
 }
 /*# sourceMappingURL=personal_area.css.map */
